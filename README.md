@@ -35,27 +35,27 @@ Target (Outcome):
 Distance (Euclidean)
 
 
-d(x, y) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}
+$$d(x, y) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}$$
 
 Accuracy
 
 
-\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
+$$\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}$$
 
 Precision
 
 
-\text{Precision} = \frac{TP}{TP + FP}
+$$\text{Precision} = \frac{TP}{TP + FP}$$
 
 Recall
 
 
-\text{Recall} = \frac{TP}{TP + FN}
+$$\text{Recall} = \frac{TP}{TP + FN}$$
 
 F1-score
 
 
-F1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+$$F1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$$
 
 
 ---
